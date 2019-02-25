@@ -8,10 +8,10 @@
 <body>
 <script>
 
-    var box = new Object(); //创建一个Object 对象
+    var box = new Object(); 
     var date= new Date();
     box.hour=date.getHours();
-    box.run = function () { //创建一个run()方法并返回值
+    box.run = function () { 
         if(box.hour<12){
             return "Good morning";
         }else if(box.hour<18){
@@ -20,7 +20,7 @@
             return "Good evening";
         }
     };
-    alert(box.run()); //输出属性和方法的值
+    alert(box.run());
 </script>
 </body>
 </html>
